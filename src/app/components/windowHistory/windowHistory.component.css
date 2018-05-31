@@ -1,0 +1,18 @@
+.container{
+  overflow: auto;
+  height: 100vh;
+}
+.component{
+  padding: 10px 10px;
+  text-align: left;
+}
+ul{
+  display: flex;
+  flex-direction: column-reverse;
+}
+li{
+  background: #c5c5c5;
+}
+li:nth-child(even){
+  background: #d3d3d3;
+}
